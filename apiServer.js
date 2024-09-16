@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 // MongoDB setup
-const uri = "mongodb+srv://Raj1234:usrkhCiHVUWLjVLH@giftdelivery.5tdul.mongodb.net/?retryWrites=true&w=majority&appName=giftdelivery";
+const uri = "mongodb+srv://rajptl2034:jR9PbRkUT9DEF5xx@giftdelivery.rijnj.mongodb.net/?retryWrites=true&w=majority&appName=giftdelivery";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 let userCollection;
 let orderCollection;
